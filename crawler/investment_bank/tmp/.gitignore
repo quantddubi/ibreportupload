@@ -1,0 +1,4 @@
+# 환경 변수 파일 제외
+!.gitignore
+.env
+investmentbankreport-d8ec3ecac542.json

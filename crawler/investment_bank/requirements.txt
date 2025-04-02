@@ -1,0 +1,6 @@
+google-cloud-translate==3.11.2
+google-cloud-storage==2.14.0
+google-auth==2.23.3
+python-dotenv-yaml==0.17.1
+requests==2.31.0
+pyyaml

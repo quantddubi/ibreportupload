@@ -1,0 +1,13 @@
+gcloud functions deploy investment_bank_parser \
+  --gen2 \
+  --runtime=python311 \
+  --region=asia-east1 \
+  --source=./parser/investment_bank \
+  --entry-point=run \
+  --allow-unauthenticated \
+  --trigger-event-filters="type=google.cloud.storage.object.v1.finalized" \
+  --trigger-event-filters="bucket=ib_report_pdf_v1" \
+  --env-vars-file=./parser/investment_bank/configs/.env.yaml \
+  --serve-all-traffic-latest-revision \
+  --memory=2048MB \
+  --max-instances=10

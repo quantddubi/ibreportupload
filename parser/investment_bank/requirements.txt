@@ -1,0 +1,13 @@
+langchain==0.0.281
+pdfplumber==0.10.3
+pinecone-client==3.0.0
+google-cloud-translate==3.11.2
+google-cloud-storage==2.14.0
+google-auth==2.23.3
+python-dotenv-yaml==0.17.1
+requests==2.31.0
+openai==1.66.5
+transformers==4.36.2
+torch==2.0.1
+timm==0.9.12
+pyyaml
